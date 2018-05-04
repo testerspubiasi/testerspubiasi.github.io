@@ -365,7 +365,6 @@ a {
 
 	.talk-time {
 		display: inline-block;
-		margin-right: 20px;
 		width: 100px;
 	}
 
@@ -385,7 +384,6 @@ a {
 
 	.talk img {
 		height: 150px;
-		margin-right: 0;
 		display: inline-block;
 		vertical-align: top;
 	}

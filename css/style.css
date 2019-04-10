@@ -278,7 +278,7 @@ a {
 	height: 150px;
 	display: inline-block;
 	vertical-align: top;
-	margin: 0 12%;
+	margin: 0 auto;
 }
 
 .dual-image > img {

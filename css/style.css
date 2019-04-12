@@ -126,7 +126,7 @@ a {
 	margin-top: 10px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 320px) {
 	.menu_btn {
 		display: block;
 		z-index: 5;
@@ -271,10 +271,11 @@ a {
 .talk-specs-content {
 	display: flex;
 	align-items: center;
+	padding-top: 10px;
 }
 
 .talk-specs-content img {
-	border-radius: 50%;
+	border-radius: 0%;
 	height: 150px;
 	display: inline-block;
 	vertical-align: top;
@@ -282,11 +283,11 @@ a {
 }
 
 .dual-image > img {
-	border-radius: 50%;
+	border-radius: 0%;
 }
 
 .dual-image > img:first-of-type {
-	margin-right: -36px;
+	margin-right: 20px;
 }
 
 .talk-time {
@@ -325,7 +326,7 @@ a {
 .talk-description {
 	width: 50%;
 	font-size: 18px;
-	text-align: left;
+	text-align: justify;
 	line-height: 30px;
 	display: inline-block;
 	vertical-align: middle;
@@ -380,6 +381,7 @@ a {
 		color: #fff;
 		margin: 0;
 		font-weight: bold;
+		padding-bottom: 20px;
 	}
 
 	.talk img {
@@ -469,6 +471,7 @@ a {
 
 .speaker-description {
 	font-size: 16px;
+	text-align: center;
 }
 
 .icon {
@@ -543,7 +546,7 @@ a {
 /* Miscelaneous */
 
 .title {
-	margin: 0rem 0 100px 0;
+	margin: 0rem 0 50px 0;
 	padding-top: 2rem;
 	text-align: center;
 	color: white;
